@@ -1,0 +1,81 @@
+p {
+  display: flex;
+}
+
+.container {
+  padding: 20px;
+  text-align: center;
+}
+
+.product-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+  width: 200px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.product-card img {
+  width: 200px;
+  height: 300px;
+  height: auto;
+  border-radius: 4px;
+}
+
+.product-title {
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.product-price {
+  color: green;
+}
+
+
+/* App.css */
+
+/* Style for the container holding buttons */
+.pagination-controls {
+  display: flex;                /* Align items in a row */
+  justify-content: center;      /* Center the buttons */
+  margin: 20px 0;              /* Add some space above and below */
+}
+
+/* Button styles */
+button {
+  padding: 20px 15px;          /* Padding inside buttons */
+  margin: 0 10px;              /* Space between buttons */
+  border: none;                /* Remove default border */
+  border-radius: 5px;         /* Rounded corners */
+  background-color: #007bff;  /* Button background color */
+  color: white;                /* Button text color */
+  cursor: pointer;             /* Change cursor to pointer on hover */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+
+
+/* Hover effect */
+button:hover {
+  background-color: #0056b3;   /* Darker shade on hover */
+}
+
+/* Disable styling */
+button:disabled {
+  background-color: #cccccc;    /* Grey background for disabled state */
+  cursor: not-allowed;          /* Not allowed cursor */
+}
+
+
+
+.pagination {
+  display: flex;
+  margin: 0 20px; /* Space between buttons and pagination numbers */
+}
+
+.active {
+  background-color: red;
+}
